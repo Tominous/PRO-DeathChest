@@ -1,7 +1,7 @@
 #Config version, DO NOT CHANGE!
 config_version: 1
 #Enable debug messages in console?
-debug_messages: false
+debug_messages: true
 #Expire groups and permissions for each group. Please sort groups from highest permission to lowest. Last group should be default.
 expire_groups:
   default:
@@ -62,7 +62,7 @@ hologram:
   #Should hologram be enabled?
   enabled: true
   #Date format. Visit https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html for more help
-  death_date_format: "dd.MM.yyyy hh:mm"
+  death_date_format: "dd.MM.yyyy hh:mm:ss"
   #Lines displayed on hologram. Accepts placeholders %locked%, %death_date%, %player%, %timeleft%
   lines:
     - "%locked%"
